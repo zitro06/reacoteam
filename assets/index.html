@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--<html lang="en"> -->
+<html lang="es" ng-app="ReacoApp" ng-controller= "ReacoController">
+<head>
+	<title> reaco3.0</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	
+	<script type="text/javascript" src="/js/angular/angular.min.js"></script>
+	<script src="/js/angular/angular-route.min.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script type="text/javascript" src ="/js/jquery-1.11.3.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/reaco.js"></script>
+	<script src="/js/reportes.js"></script>
+	<style>
+	  .carousel-inner > .item > img,
+	  .carousel-inner > .item > a > img {
+	      width: 70%;
+	      margin: auto;
+  		}
+  	</style>
+
+</head>
+<body>
+
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#/">inicio</a></li>
+                <li><a href="#orderCollection">Orden Recoleccion</a></li>
+                <li class="dropdown">
+                  <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reportes <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                  	<li><a href="#reporte1">Reporte 1</a></li>
+			      	<li><a href="#reporte2">Reporte 2</a></li>
+			      	<li><a href="#reporte3">Reporte 3</a></li> 
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+
+	<div class="col-md-9">
+            <div ng-view></div>
+    </div>
+
+<!--
+
+	 <ul class="nav nav-tabs">
+		  <li><a href="#orderCollection">Orden Recoleccion</a></li>
+		  <li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reportes
+			    <span class="caret"></span></a>
+			    <ul class="dropdown-menu">
+			      <li><a href="#reporte1">Reporte 1</a></li>
+			      <li><a href="#reporte2">Reporte 2</a></li>
+			      <li><a href="#reporte3">Reporte 3</a></li> 
+			    </ul>
+		  </li>
+	</ul>
+
+	<div class="col-md-9">
+            <div ng-view></div>
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+			  <!-- Indicators -->
+<!--			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+		<!--	  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      	reaco 3.0
+			    </div>
+
+			    <div class="item">
+			       avon company
+			    </div>
+
+			    <div class="item">
+			        comunicacion continua con dipex
+			    </div>
+
+			    <div class="item">
+			      seguimiento a tus ordenes
+			    </div>
+			  </div>
+
+			  <!-- Left and right controls -->
+		<!--	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+	</div> -->
+
+  
+</body>
+</html>
