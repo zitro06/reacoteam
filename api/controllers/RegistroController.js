@@ -9,7 +9,7 @@ module.exports = {
 
 	getDatosAll: function(req,res){
        var name = "jaime";  
-	  console.log("consulta amiguito");
+	    // console.log("consulta amiguito");
       
       User.find().exec(function(err,user){
                 console.log ("usuer recuperado"+user);
